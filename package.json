@@ -1,5 +1,5 @@
-{ "homepage":"https://johndunking.github.io",
-  "name": "react-jdportfolio",
+{ "homepage":"https://johndunking.github.io/johnduncan-portfolio",
+  "name": "johnduncan-portfolio",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
