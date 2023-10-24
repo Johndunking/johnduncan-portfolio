@@ -4,7 +4,7 @@ import LogoJ from '../../assets/images/j.png'
 import LogoSubtitle from '../../assets/images/john.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faBars, faClose, faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faBriefcase, faClose, faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react'
 
 
@@ -29,6 +29,11 @@ const Sidebar = () => {
             </NavLink>
             <NavLink  activeclassname="active" className='about-link' to="/about" onClick={() => setShowNav(false)}> 
                 <FontAwesomeIcon icon={faUser} color="#17202A" />
+
+            </NavLink>
+            <NavLink  activeclassname="active" className="work-link" to="/work"
+            onClick={() => setShowNav(false)}>
+                <FontAwesomeIcon icon={faBriefcase} color="#17202A" />
 
             </NavLink>
             <NavLink  activeclassname="active" className="contact-link" to="/contact"

@@ -26,7 +26,7 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    I am an ambitious software developer looking for a team to 
+                    I am an ambitious web developer looking for a team to 
                     collaborate and grow with.
                 </p>
                 <p>

@@ -1,0 +1,18 @@
+.hover-card:hover {
+    transform: scale(1.15); /* Apply the hover effect to cards with the class hover-card */
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+
+.cards{
+    justify-content: center;
+    padding: 20px;
+    left: 310px;
+    
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #F08080 !important;
+    border-color: #F08080 !important;
+}
+ 

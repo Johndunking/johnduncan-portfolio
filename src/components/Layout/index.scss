@@ -42,6 +42,7 @@
 }
 
 .about-page,
+.work-page,
 .contact-page {
     .text-zone {
         position: absolute;
@@ -132,6 +133,7 @@
       min-height: auto;
   
       &.contact-page,
+      &.work-page,
       &.about-page {
         .stage-cube-cont {
           position: initial;
